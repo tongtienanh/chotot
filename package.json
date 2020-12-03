@@ -1,0 +1,28 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "Cau truc thu muc mau de cat giao dien",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w -p",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

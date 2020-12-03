@@ -1,0 +1,58 @@
+@import "../../base/base";
+//Components
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../pages/vehicle/vehicle";
+
+.container{
+  .fillter-wrapper{
+    white-space: nowrap;
+    .categories{
+      width: 936px;
+      overflow: hidden;
+    }
+  }
+  .wrapper-body{
+    .side-wrapper{
+      .swiper-container{
+        .swiper-wrapper{
+          .swiper-slide{
+            .classify{
+              .item-classify{
+                img{
+                  width: 48px;
+                  height: 48px;
+                  object-fit: cover;
+                  vertical-align: middle;
+                }
+              }
+            }
+            .list{
+              display: flex;
+              margin-top: 10px;
+              .item{
+                margin-right: 8px;
+                background-color: #fff;
+                text-transform: capitalize;
+                padding: 6px;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                a{
+                  color: rgb(34, 34, 34);
+                  width: 94px;
+                  text-align: center;
+                  font-size: 13px;
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
