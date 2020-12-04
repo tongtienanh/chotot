@@ -73,6 +73,9 @@ module.exports = {
         brand_car:[
             './assets/scss/pages/brand_car/brand_car.scss',
         ],
+        pets:[
+            './assets/scss/pages/pets/pets.scss',
+        ],
     },
     output: {
         filename: 'js/[name].js',

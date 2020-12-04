@@ -1,0 +1,26 @@
+.page {
+  .active {
+    background-color: #FFD100;
+    border-color: #FFD100;
+  }
+  ul {
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 4px;
+    li {
+      display: inline-block;
+      margin: 6px;
+      a {
+        color: #2d2d2d;
+        border: 1px solid #ddd;
+        padding: 6px 12px;
+        margin-left: -5px;
+
+        &:hover {
+          background-color: #ECEEEF;
+        }
+
+      }
+    }
+  }
+}

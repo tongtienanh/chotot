@@ -1,0 +1,123 @@
+.fillter {
+  margin-top: 10px;
+  background-color: white;
+  display: flex;
+  border: 1px solid #cacaca;
+  height: 44px;
+  ul {
+    display: flex;
+    width: 66%;
+    padding: 0;
+
+    li {
+      line-height: 40px;
+      font-size: 13px;
+      opacity: 1;
+      width: 100%;
+      margin: 0;
+      position: relative;
+      a{
+        padding: 0 12px;
+        font-size: 14px;
+        color: #9b9b9b;
+        cursor: pointer;
+      }
+    }
+    li:hover {
+      cursor: pointer;
+      &::after{
+        bottom: -3px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        content: "";
+        height: 4px;
+        background: #ffba00;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+      }
+    }
+  }
+  .active {
+    opacity: 1;
+
+    a{
+      color: #222;
+      font-weight: 700;
+    }
+    &::after{
+      bottom: -3px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      content: "";
+      height: 3px;
+      background: #ffba00;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+  }
+  .dropdown-group{
+    display: flex;
+    align-items: center;
+    .dropdown-btn{
+      display: flex;
+      justify-content: space-around;
+      height: 100%;
+      width: 80%;
+      align-items: center;
+      border-left: 1px solid #cacaca7d;
+      position: relative;
+      cursor: pointer;
+      .toggle{
+        position: absolute;
+        top: 43px;
+        z-index: 10;
+        font-size: 14px;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+        background-color: #fff;
+        width: 100%;
+        display: none;
+        ul{
+          display: block;
+          width: 100%;
+          li{
+            i{
+              color:#fd9827;
+              padding-left: 33px;
+            }
+            color: #333;
+            line-height: 20px;
+            font-size: 13px;
+            height: 40px;
+            padding: 10px 12px;
+            display: block;
+            outline: none;
+            cursor: pointer;
+            box-shadow: none;
+            opacity: 1;
+            &:hover{
+              background-color: #f4f4f4;
+            }
+          }
+        }
+      }
+      &:active{
+        color: #333;
+        background-color: #e6e6e6;
+        border-color: #adadad;
+      }
+    }
+    .fillter-icon{
+      width: 67px;
+      height: 44px;
+      border-left: 1px solid #cacaca7d;
+      text-align: center;
+      line-height: 3;
+      .hidden{
+        display: none;
+      }
+    }
+  }
+}

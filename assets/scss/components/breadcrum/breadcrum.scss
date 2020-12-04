@@ -1,0 +1,35 @@
+.heading {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Helvetica;
+  margin: 12px 0 12px 15px;
+}
+.breadcrumb {
+  padding: 0 12px;
+  margin: 24px 0 0 0;
+  ul {
+    display: flex;
+
+    li {
+      margin: 0 4px;
+      a {
+        font-size: 11px;
+        color: #33689c;
+      }
+      &:before {
+        content: "\BB";
+        color: #33689c;
+        margin-right: 3px;
+      }
+      &:first-child::before{
+        content: "";
+      }
+      &:last-child{
+        a{
+          color: #333333;
+        }
+      }
+    }
+  }
+
+}

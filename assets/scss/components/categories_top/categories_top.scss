@@ -1,0 +1,42 @@
+.fillter-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  .categories {
+    margin: 0 auto;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 936px;
+    .item {
+      margin-right: 2px;
+      cursor: pointer;
+      & + .item {
+        margin-left: 5px;
+      }
+      position: relative;
+      border: 1px solid #9b9b9b;
+      border-radius: 3px;
+      padding: 3px 10px;
+      .badge {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        display: flex;
+        border-radius: 50%;
+        padding: 3px;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #fc9807;
+        top: -8px;
+        left: -8px;
+        font-size: 12px;
+      }
+      &.bg {
+        background: #f4f4f4;
+        border-color: #f4f4f4;
+      }
+    }
+  }
+}

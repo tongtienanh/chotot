@@ -28,9 +28,6 @@ console.log(list_1)
 icon_click.addEventListener('click',function () {
     document.getElementById("div").classList.toggle("hidden");
     document.querySelector(".show-list").classList.toggle("hidden");
-    // list_1.classList.toggle("hidden");
-    // list_2.classList.toggle("flex");
-    document.getElementById("nhung").classList.toggle("hidden");
-    document.getElementById("tienanh").classList.toggle("flex")
-
+    list_1.classList.toggle("hidden");
+    list_2.classList.toggle("flex");
 })

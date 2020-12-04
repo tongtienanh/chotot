@@ -512,14 +512,17 @@
             <span class="label">Năm sản xuất</span>
             <span>+</span>
         </div>
+
             <div class="item bg">
                 <span class="label">Trình trạng</span>
                 <span>+</span>
             </div>
+
             <div class="item bg">
                 <span class="label">Tin có video</span>
                 <span>+</span>
             </div>
+
             <div class="item bg">
                 <span class="label">Số Km đã đi</span>
                 <span>+</span>
@@ -548,6 +551,111 @@
                 <span class="label">Người bán gửi c</span>
                 <span>+</span>
             </div>
+        </div>
+        <div class="swiper-container container-1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="item">
+                        <span class="badge">1</span>
+                        <i class="fas fa-filter"></i>
+                        <span class="label">Lọc</span>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <span class="label">Toàn quốc</span>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item">
+                        <span class="label">việc làm</span>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Giá</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Hãng</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Năm sản xuất</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Trình trạng</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="item bg">
+                        <span class="label">Tin có video</span>
+                        <span>+</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button swiper-button-prev"></div>
+            <div class="swiper-button swiper-button-next"></div>
+
         </div>
     </div>
     <div class="wrapper-body">
@@ -1922,6 +2030,29 @@
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
 
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+    })
+</script>
+<script>
+    var mySwiper = new Swiper('.container-1', {
+        // Optional parameters
+        slidersPerGroup:1,
+        slidesPerView:10,
 
         // If we need pagination
         pagination: {

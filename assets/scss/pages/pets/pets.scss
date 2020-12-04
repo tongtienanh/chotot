@@ -1,0 +1,26 @@
+@import "../../base/base";
+//Components
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/list/list";
+@import "../../components/gird/gird";
+@import "../../components/pages/pages";
+@import "../../components/classify_categories/classify_categories";
+@import "../../components/modal/modal";
+@import "../../components/breadcrum/breadcrum";
+@import "../../components/categories_top/categories_top";
+@import "../../components/fillter/fillter";
+.container{
+  max-width: 100%;
+  padding: 0;
+  background-color: #F4F4F4;
+  .wrapper-body{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    .side-wrapper{
+      width: 65%;
+    }
+  }
+
+}
