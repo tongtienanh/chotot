@@ -1,6 +1,16 @@
 .list-1{
   display: block;
   .item{
+    display: flex;
+    img{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    .infomation{
+      width: 100%;
+      margin-left: 10px;
+    }
     padding: 12px;
     min-height: 124px;
     overflow: hidden;
@@ -57,7 +67,7 @@
     .detail{
       display: flex;
       justify-content: space-between;
-      margin-top: 15px;
+      margin-top: 33px;
       p{
         font-size: 12px;
         margin: 0 8px;
@@ -89,6 +99,18 @@
       .img{
         width: 16px;
         height: 16px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 739px){
+  .item{
+    .infomation{
+      width: 72%;
+      .detail{
+        .place{
+          display: none;
+        }
       }
     }
   }

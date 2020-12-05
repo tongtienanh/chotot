@@ -2,10 +2,25 @@
 //Components
 @import "../../components/header/header";
 @import "../../components/footer/footer";
-@import "../../pages/car/car";
+@import "../../components/list/list";
+@import "../../components/gird/gird";
+@import "../../components/pages/pages";
+@import "../../components/classify_categories/classify_categories";
+@import "../../components/modal/modal";
+@import "../../components/breadcrum/breadcrum";
+@import "../../components/categories_top/categories_top";
+@import "../../components/fillter/fillter";
+@import "../../components/recommend_list/recommend_top";
 .container{
+  max-width: 100%;
+  padding: 0;
+  background-color: #F4F4F4;
   .wrapper-body{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
     .side-wrapper{
+      width: 65%;
       .title{
         background-color: #fff;
         padding: 10px 0 4px 12px;
@@ -68,6 +83,12 @@
           }
         }
       }
+    }
+  }
+  .fillter-wrapper{
+    .categories{
+      white-space: nowrap;
+      overflow-x: hidden;
     }
   }
 }

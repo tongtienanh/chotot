@@ -160,7 +160,82 @@
     </div>
 
 </div>
-<div class="modal muaban">
+<div class="modal vehicle">
+    <div class="modal-overlay"></div>
+    <div class="modal-body">
+        <div class="modal-body-head">
+            <img src="https://static.chotot.com/storage/chotot-icons/svg/back.svg" alt="back">
+            <h4>Chọn Danh Mục</h4>
+            <spann class="close-btn">x</spann>
+        </div>
+        <ul>
+            <li class="nation-wide"><a href="">Tất cả các loại xe</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Ô tô</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Xe máy</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Xe tải,xe ben</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Xe điện</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Xe đạp</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Phương tiện khác</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Phụ tùng xe</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+            <li><a href="">Về lại tất cả danh mục</a>
+                <img class="icon-arrow-right" height="40"
+                     src="https://static.chotot.com/storage/NHA_CDN_PRODUCTION/c936270d5bd9361ba3747383a0780342.svg">
+            </li>
+        </ul>
+    </div>
+
+</div>
+<div class="modal prices">
+    <div class="modal-overlay"></div>
+    <div class="modal-body">
+        <div class="modal-body-head">
+            <img src="https://static.chotot.com/storage/chotot-icons/svg/back.svg" alt="back">
+            <h4>Giá</h4>
+            <spann class="close-btn">x</spann>
+        </div>
+        <div class="change-price">
+            <div class="title-price-change">Giá từ <strong>0</strong> đến <strong>1.000.000</strong></div>
+            <div class="rangeslider">
+                <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+                <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+            </div>
+            <!--            <div class="slider-range">-->
+            <!--                <div class="slider-rail"></div>-->
+            <!--                <div class="slider-track">-->
+            <!--                    <div class="slider-handle handled1"></div>-->
+            <!--                    <div class="slider-handle handled2"></div>-->
+            <!--                </div>-->
+            <!--                <div class="slider-step"></div>-->
+
+            <!--            </div>-->
+        </div>
+    </div>
+</div>
+<div class="modal status">
     <div class="modal-overlay"></div>
     <div class="modal-body">
         <div class="modal-body-head">
@@ -171,7 +246,7 @@
         <div class="selection">
             <div class="selection-item">
             <span>
-                Mua bán
+                Đã sử dụng
             </span>
                 <div class="btn-selec">
                     <label class="container">
@@ -182,7 +257,7 @@
             </div>
             <div class="selection-item noselect">
             <span>
-                Cho thuê
+                Mới kính koong
             </span>
                 <div class="btn-selec">
                     <label class="container">
@@ -194,7 +269,7 @@
         </div>
     </div>
 </div>
-<div class="modal bds">
+<div class="modal video-news">
     <div class="modal-overlay"></div>
     <div class="modal-body">
         <div class="modal-body-head">
@@ -216,7 +291,7 @@
             </div>
             <div class="selection-item noselect">
             <span>
-                Căn hộ/Chung cư
+               Có video
             </span>
                 <div class="btn-selec">
                     <label class="container">
@@ -227,29 +302,7 @@
             </div>
             <div class="selection-item">
             <span>
-                Nhà ở
-            </span>
-                <div class="btn-selec">
-                    <label class="container">
-                        <input type="radio" checked="checked" name="radio">
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-            </div>
-            <div class="selection-item">
-            <span>
-                Đất
-            </span>
-                <div class="btn-selec">
-                    <label class="container">
-                        <input type="radio" checked="checked" name="radio">
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-            </div>
-            <div class="selection-item">
-            <span>
-                Văn phòng
+               Không có video
             </span>
                 <div class="btn-selec">
                     <label class="container">
@@ -497,19 +550,16 @@
                 <i class="fas fa-caret-down"></i>
             </div>
             <div class="item">
-                <span class="label">việc làm</span>
+                <span class="label">Xe cộ</span>
                 <i class="fas fa-caret-down"></i>
             </div>
-            <div class="item hidden">
-                <span class="label">Loại BĐS</span>
-                <i class="fas fa-caret-down"></i>
-            </div>
+
             <div class="item bg">
                 <span class="label">Giá</span>
                 <span>+</span>
             </div>
             <div class="item bg">
-                <span class="label">Dự án</span>
+                <span class="label">Tình trạng</span>
                 <span>+</span>
             </div>
             <div class="item bg">
@@ -520,28 +570,110 @@
     </div>
     <div class="wrapper-body">
         <div class="side-wrapper">
-            <div class="breadcrumb">
-                <ul>
-                    <li><a href="">Chợ tốt</a></li>
-                    <li><a href="">Toàn quốc</a></li>
-                    <li><a href="">Việc làm</a></li>
-                </ul>
-            </div>
-            <div class="heading">Tìm Việc Làm Nhanh 12/2020 - Tuyển Dụng Việc Làm Hiệu Quả Trong 24H</div>
-            <div class="classify">
-                <a href="house.html"> <div class="item-classify">
-                    <div class="icon-item">
-                        <img src="./images/bag.svg" alt="">
+            <div class="heading">Mua Bán Xe Cũ Và Mới Giá Rẻ, Chính Chủ 12/2020</div>
+            <div class="swiper-container change-style">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="house.html"> <div class="item-classify">
+                        <div class="icon-item">
+                            <img src="../../images/car-icon.svg" alt="">
+                        </div>
+                        <p>Ô tô</p>
+                    </div></a>
                     </div>
-                    <p>Danh sách việc làm</p>
-                </div></a>
-                <a href="house_2.html"><div class="item-classify">
-                    <div class="icon-item">
-                        <img src="./images/job.svg" alt="">
+                    <div class="swiper-slide"><a href="house_2.html"><div class="item-classify">
+                        <div class="icon-item">
+                            <img src="images/bike-icon.svg" alt="">
+                        </div>
+                        <p>Xe máy</p>
+                    </div></a>
                     </div>
-                    <p>Người tìm việc</p>
-                </div></a>
+                    <div class="swiper-slide"><div class="item-classify">
+                        <div class="icon-item">
+                            <img src="images/truck-icon.svg" alt="">
+                        </div>
+                        <p>Xe tải,xe ben</p>
+                    </div>
+                    </div>
+                    <div class="swiper-slide"><div class="item-classify">
+                        <div class="icon-item">
+                            <img src="images/bike2.svg" alt="">
+                        </div>
+                        <p>Xe điện</p>
+                    </div>
+                    </div>
+                    <div class="swiper-slide"><div class="item-classify">
+                        <div class="icon-item">
+                            <img src="images/bike3.svg" alt="">
+                        </div>
+                        <p>Xe đạp</p>
+                    </div>
+                    </div>
+                    <div class="swiper-slide"><div class="item-classify">
+                        <div class="icon-item">
+                            <img src="images/orther.svg" alt="">
+                        </div>
+                        <p>Phương tiện khác</p>
+                    </div>
+                    </div>
+                    <div class="swiper-slide"><div class="item-classify">
+                        <div class="icon-item">
+                            <img src="images/phukien.svg" alt="">
+                        </div>
+                        <p>Phụ tùng xe</p>
+                    </div></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-button swiper-button-next"></div>
+
             </div>
+            <!--            <div class="classify">-->
+            <!--                <a href="house.html"> <div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1010.svg" alt="Căn hộ/Chung cư">-->
+            <!--                    </div>-->
+            <!--                    <p>Danh sách việc làm</p>-->
+            <!--                </div></a>-->
+            <!--                <a href="house_2.html"><div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1020.svg" alt="Nhà ở">-->
+            <!--                    </div>-->
+            <!--                    <p>Nhà ở</p>-->
+            <!--                </div></a>-->
+            <!--                <div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1020.svg" alt="Nhà ở">-->
+            <!--                    </div>-->
+            <!--                    <p>Nhà ở</p>-->
+            <!--                </div>-->
+            <!--                <div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1020.svg" alt="Nhà ở">-->
+            <!--                    </div>-->
+            <!--                    <p>Nhà ở</p>-->
+            <!--                </div>-->
+            <!--                <div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1020.svg" alt="Nhà ở">-->
+            <!--                    </div>-->
+            <!--                    <p>Nhà ở</p>-->
+            <!--                </div>-->
+            <!--                <div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1020.svg" alt="Nhà ở">-->
+            <!--                    </div>-->
+            <!--                    <p>Nhà ở</p>-->
+            <!--                </div>-->
+            <!--                <div class="item-classify">-->
+            <!--                    <div class="icon-item">-->
+            <!--                        <img class="itemCircleIcon___fUkoL" src="https://static.chotot.com/storage/categories/PTYs/1020.svg" alt="Nhà ở">-->
+            <!--                    </div>-->
+            <!--                    <p>Nhà ở</p>-->
+            <!--                </div>-->
+            <!--            </div>-->
             <div class="fillter">
                 <ul>
                     <li class="open-tab active" data-target="1"><a>Tất cả</a></li>
@@ -554,241 +686,327 @@
                         <i class="fas fa-caret-down"></i>
                         <div class="toggle">
                             <ul>
-                                <li>Tin mới trước
-                                    <i class="fas fa-check"></i>
-                                </li>
-                                <li>Lương thấp trước</li>
-                                <li>Lương cao trước</li>
+                                <li>Tin mới trước</li>
+                                <li>Giá thấp trước</li>
                             </ul>
                         </div>
                     </div>
                     <div class="fillter-icon">
-                        <img id="div" class="show-gird" data-target="1" src="images/grid.svg" alt="">
-                        <img class="show-list hidden" data-target="2" src="images/list.svg" alt="">
+                        <img id="div" class="show-gird" data-target="1" src="../../images/grid.svg" alt="">
+                        <img class="show-list hidden" data-target="2" src="../../images/list.svg" alt="">
                     </div>
                 </div>
             </div>
-            <div class="list-1">
+            <div class="list-1 ">
                 <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                    <div class="stick-head">Hot</div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                    <div class="stick-head">Hot</div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                    <div class="stick-head">Hot</div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-                <div class="item">
-                    <h3>500 công nhân nam điện tử có xe đưa đón chỗ ở</h3>
-                    <p>CTY JABIL,NIDEC,SONION,TTI</p>
-                    <strong>8.000.000-13.000.000</strong>
-                    <div class="detail">
-                        <div class="left">
-                            <div class="brand">
-                                <img src="images/pro-grey-icon.png" alt="">
-                                <p>Công Ty</p>
-                            </div>
-                            <div class="sticky">
-                                <img src="images/prioritize.svg" alt="">
-                                <p>Tin Ưu Tiên</p>
-                            </div>
-                            <div class="place">
-                                <p>Phường Phước Long</p>
-                            </div>
-                        </div>
-                        <img src="images/heart.png" style="width: 16px;height: 16px;" alt="">
-                    </div>
-                </div>
-            </div>
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
 
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                        <div class="stick-head">Hot</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                        <div class="stick-head">Hot</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                        <div class="stick-head">Hot</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car2.jpg" alt="">
+                    <div class="infomation">
+                        <h3>Xe tải TOWNER 990 ưu đãi 6 tháng lãi suất trả góp</h3>
+
+                        <strong>8.000.000-13.000.000</strong>
+                        <div class="detail">
+                            <div class="left">
+                                <div class="brand">
+                                    <img src="images/pro-grey-icon.png" alt="">
+                                    <p>Công Ty</p>
+                                </div>
+                                <div class="sticky">
+                                    <img src="images/prioritize.svg" alt="">
+                                    <p>Tin Ưu Tiên</p>
+                                </div>
+                                <div class="place">
+                                    <p>Phường Phước Long</p>
+                                </div>
+                            </div>
+                            <img src="images/new-save-ad.svg" style="width: 16px;height: 16px;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="list-2">
                 <div class="item">
+                    <img src="/images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="/images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="/images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="/images/pro-grey-icon.png" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="/images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -797,7 +1015,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -806,7 +1045,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -815,7 +1075,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -824,7 +1105,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -833,7 +1135,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -842,7 +1165,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -851,7 +1195,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -860,7 +1225,28 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
+                    <div class="icon">
+                        <img src="images/shop.svg" alt=""> <span></span>
+                        <p>Tin ưu tiên</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/car.jpg" alt="">
+                    <h3>Toyota Innova 2006 Số sàn</h3>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
+                    </div>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
                         <img src="images/pro-grey-icon.png" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
@@ -869,18 +1255,15 @@
                 <div class="item">
                     <img src="images/car.jpg" alt="">
                     <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
-                    <div class="icon">
-                        <img src="images/pro-grey-icon.png" alt=""> <span></span>
-                        <p>Tin ưu tiên</p>
+                    <div class="save-icon">
+                        <img src="images/save-ad.svg" style="height: 20px;width: 20px" alt="">
                     </div>
-                </div>
-                <div class="item">
-                    <img src="images/car.jpg" alt="">
-                    <h3>Toyota Innova 2006 Số sàn</h3>
-                    <strong>59.000.000</strong>
+                    <div class="price">
+                        <strong>59.000.000</strong>
+                        <span><img class="img-date" src="images/date.png" alt=""><strong>2019</strong></span>
+                    </div>
                     <div class="icon">
-                        <img src="images/pro-grey-icon.png" alt=""> <span></span>
+                        <img src="images/shop.svg" alt=""> <span></span>
                         <p>Tin ưu tiên</p>
                     </div>
                 </div>
@@ -1040,95 +1423,12 @@
     </div>
 
 </div>
-<footer>
-    <div class="mobile-footer">
-        <a href=""><img class="appWrapper-MobileFooter-appInstall" alt="banner app install"
-                        src="https://static.chotot.com/storage/marketplace/common/banner-footer.png"></a>
-        <div class="footer-section-help">
-            <ul>
-                <li><a href="">TRỢ GIÚP</a></li>
-                <li><a href="">QUY ĐỊNH CẦN BIẾT</a></li>
-                <li><a href="">QUY CHẾ QUYỀN RIÊNG TƯ</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-about">
-            <ul>
-                <li>LIÊN HỆ</li>
-                <li>VỀ CHỢ TỐT</li>
-            </ul>
-        </div>
-        <div class="mobile-footer-section3 logo">
-            <img alt="Bộ công thương" src="https://static.chotot.com/storage/default/cerfiticate.png">
-        </div>
-    </div>
-    <div class="deskop-footer">
-        <div class="deskop-footer-container">
-            <div class="desktop-footer-container-top">
-                <div class="container-item">
-                    <div class="item-top">TẢI ỨNG DỤNG CHỢ TỐT</div>
-                    <div class="item-bot">
-                        <div class="qr-code">
-                            <img class="img-qr-code" src="./images/group-qr.jpeg" alt="">
-                        </div>
-                        <div class="app-store">
-                            <img alt="App Store" height="32" src="https://static.chotot.com/storage/default/ios.svg">
-                            <img alt="Google Play" height="32"
-                                 src="https://static.chotot.com/storage/default/android.svg">
-                        </div>
-                    </div>
-                </div>
-                <div class="user-help">
-                    <div class="item-top">HỖ TRỢ KHÁCH HÀNG</div>
-                    <div class="footer-container-list">
-                        <ul>
-                            <li><a href="">Trung tâm trợ giúp</a></li>
-                            <li><a href="">An toàn mua bán</a></li>
-                            <li><a href="">Quy định cần biết</a></li>
-                            <li><a href="">Quy chế quyền riêng tư</a></li>
-                            <li><a href="">Liên hệ hỗ trợ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="user-help">
-                    <div class="item-top">VỀ CHỢ TỐT</div>
-                    <div class="footer-container-list">
-                        <ul>
-                            <li><a href="">Trung tâm trợ giúp</a></li>
-                            <li><a href="">An toàn mua bán</a></li>
-                            <li><a href="">Quy định cần biết</a></li>
-                            <li><a href="">Quy chế quyền riêng tư</a></li>
-                            <li><a href="">Liên hệ hỗ trợ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="user-help">
-                    <div class="item-top">LIÊN KẾT</div>
-                    <div class="footer-container-list">
-                        <ul class="social-icon">
-                            <li><a href=""></a><img class="appWrapper-DesktopFooter-icon" alt="Facebook" src="https://static.chotot.com/storage/default/facebook.svg"></li>
-                            <li><a href=""></a><img class="appWrapper-DesktopFooter-icon" alt="Youtube" src="https://static.chotot.com/storage/default/youtube.svg"></li>
-                            <li><a href=""></a><img class="appWrapper-DesktopFooter-icon" alt="Google+" src="https://static.chotot.com/storage/default/google.svg"></li>
-                        </ul>
-                        <h3>CHỨNG NHẬN</h3>
-                        <img alt="Certification" src="https://static.chotot.com/storage/default/cerfiticate.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="hr-bottom">
-        <div class="desktop-footer-address">
-            <p>CÔNG TY TNHH CHỢ TỐT - Địa chỉ: Phòng 1808, Tầng 18, Mê Linh Point Tower, 02 Ngô Đức Kế, Phường Bến Nghé,
-                Quận 1, TP Hồ Chí Minh</p>
-            <p>Giấy chứng nhận đăng ký doanh nghiệp số 0312120782 do Sở Kế Hoạch và Đầu Tư TPHCM cấp ngày 11/01/2013</p>
-            <p>Email: trogiup@chotot.vn - Đường dây nóng: (028)38664041</p>
-        </div>
-    </div>
-</footer>
 <script>
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
 
-
+        slidersPerGroup:1,
+        slidesPerView:6,
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
@@ -1146,8 +1446,8 @@
 //   },
     })
 </script>
-<script src="assets/js/pages/jobs.js"></script>
 <script src="assets/js/pages/purchase.js"></script>
-
+<script src="assets/js/pages/jobs.js"></script>
 </body>
+
 </html>

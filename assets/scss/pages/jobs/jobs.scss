@@ -9,6 +9,7 @@
 @import "../../components/modal/modal";
 @import "../../components/breadcrum/breadcrum";
 @import "../../components/categories_top/categories_top";
+@import "../../components/fillter/fillter";
 .container {
   max-width: 100%;
   padding: 0;
@@ -17,67 +18,16 @@
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
+    .list-1{
+      .item{
+        display: block;
+        .detail{
+          margin-top: 13px;
+        }
+      }
+    }
     .side-wrapper {
       width: 65%;
-      .fillter {
-        margin-top: 10px;
-        background-color: white;
-        display: flex;
-        border: 1px solid #cacaca;
-        height: 44px;
-        ul {
-          display: flex;
-          //justify-content: space-between;
-          width: 66%;
-          padding-right: 30px;
-
-          li {
-            line-height: 40px;
-            margin: 0 12px;
-            font-size: 13px;
-            opacity: 0.5;
-            width: 100%;
-
-          }
-          li:hover {
-            cursor: pointer;
-          }
-        }
-        .active {
-          color: #000;
-          border-bottom: 2px solid #FFD100;
-          display: block;
-        }
-      }
-
-      .dropdown-group {
-        width: 34%;
-
-        .dropdown-btn {
-          display: flex;
-
-          .dropdown-btn-title {
-            display: block;
-            margin-left: 39px;
-            font-size: 14px;
-            font-family: Verdana, Arial, sans-serif;
-            color: #333333;
-            line-height: 3;
-            text-align: center;
-
-            i {
-              font-size: 18px;
-              margin: 5px;
-            }
-          }
-        }
-      }
-      .fillter-icon {
-       img{
-         vertical-align: middle;
-       }
-      }
-
 .swiper-container{
 .swiper-wrapper{
   .swiper-slide{
